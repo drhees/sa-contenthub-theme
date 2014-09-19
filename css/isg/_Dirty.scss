@@ -1,0 +1,20 @@
+.SectionTitle{
+	display: block;
+	border-bottom: 1px solid #ccc;
+
+	.SectionTitleRight{
+		float: right;
+
+	}
+}
+
+
+.FrontPost img {
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.FrontPost p {
+    overflow: auto;
+}

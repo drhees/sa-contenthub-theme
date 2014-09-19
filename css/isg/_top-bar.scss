@@ -1,0 +1,21 @@
+.top-bar {
+    height: 60px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: #ddd;
+    color: #fff;
+}
+
+.top-bar__logo {
+    float: left;
+}
+
+.top-bar__logo img {
+    height: 70px;
+}
+
+.top-bar__menu {
+    height: 70px;
+    line-height: 70px;
+    float: right;
+}

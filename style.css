@@ -1,0 +1,14 @@
+/*
+Theme Name: Infostream Group
+Theme URL: http://infostreamgroup.com/
+Description: Coming Soon
+Author: James Riter 
+Author URI: JamesRiter.com
+Version: 1
+Tags: Infostream Group 
+Change Log : 1
+*/
+/*
+	sass --watch style.scss:../custom.css
+*/
+@import "custom.css";

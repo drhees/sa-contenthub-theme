@@ -1,0 +1,125 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+/**
+ * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * keep, simply redefine here. This means that if inuit.css, for example, sets
+ * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
+ * that variable in this file. inuit.css ignores its own variables in favour of
+ * using your own, so you can completely modify how inuit.css works without ever
+ * having to alter the framework itself.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $OBJECTS-AND-ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * All of inuit.css’ objects and abstractions are initially turned off by
+ * default. This means that you start any project with as little as possible,
+ * and introducing objects and abstractions is as simple as switching the
+ * following variables to `true`.
+ */
+$use-grids:         true;
+$use-flexbox:       false;
+$use-columns:       false;
+$use-nav:           true;
+$use-options:       false;
+$use-pagination:    false;
+$use-breadcrumb:    false;
+$use-media:         true;
+$use-marginalia:    false;
+$use-island:        false;
+$use-block-list:    false;
+$use-matrix:        false;
+$use-split:         true;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        false;
+$use-arrows:        false;
+$use-sprite:        false;
+$use-icon-text:     false;
+$use-beautons:      true;
+$use-lozenges:      true;
+$use-rules:         false;
+$use-stats:         false;
+$use-greybox:       false;
+
+
+
+/*------------------------------------*\
+    $OVERRIDES
+\*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ */
+
+
+$base-font-size:    14px;
+$base-line-height:  22px;
+// $base-font-family:  "Open Sans", HelveticaNeue, Helvetica, Arial, sans-serif;
+$base-font-family: 	'Raleway', sans-serif;
+
+$base-ui-color: 	#666666;
+/* Adjust Breakpoints */
+$lap-start:         481px!default;
+$desk-start:        800px!default;
+$desk-wide-start:   1200px!default;
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+/**
+ * Place any of your own variables that sit on top of inuit.css here.
+ */
+
+$push:true;
+$palm-push:true;
+
+/**
+*  Main Colors 
+**/
+$primary_color_dark: #4C4400;
+$secondary_color_light: #93D856;
+$secondary_color_b_light: #DABD9C;
+
+
+/**
+*  Widths And Heights To Use 
+**/
+
+$max_site_width: 1000px;
+$max_site_width_wide: 1100px;
+$min_height_large: 1000px;
+$min_height_small: 300px;
+
+
+
+
+
+
+
+
+
+
+/**
+ * Debug variables
+ **/
+
+$debug-mode:        false;
+$debug-level: 	0!default;
+
+
+
+
+
+
+
+
+
+
+
+

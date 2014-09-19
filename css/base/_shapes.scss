@@ -1,0 +1,24 @@
+
+$round_small: 3px;
+$round_med: 6px;
+$round_large: 10px;
+$round_large_crazy: 1000px;
+
+.block_it{ display:block; }
+
+.round_small{
+	border-radius: $round_small;
+}
+
+.round_med{
+	border-radius: $round_med;
+}
+
+.round_large{
+	border-radius: $round_large;
+}
+
+.round_large_crazy{
+	border-radius: $round_large_crazy;
+}
+

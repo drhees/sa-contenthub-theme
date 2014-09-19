@@ -1,0 +1,17 @@
+.FrontPage{
+	display: table;
+	width: 100%;
+	min-height: 600px;
+
+
+	.right{
+		display: table-cell;
+		border-left: 1px solid #000;
+	}
+
+	.left{
+		width: 600px;
+		display: table-cell;
+
+	}
+}
