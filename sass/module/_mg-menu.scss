@@ -1,0 +1,52 @@
+/*------------------------------------*\
+  mg-menu
+\*------------------------------------*/
+/**
+ * mega menu
+ */
+
+ .mg-menu {
+
+}
+
+.mg-menu ul {
+    visibility: hidden;
+}
+
+.menu-item.hover ul {
+    visibility: visible;
+}
+
+.mg-menu > li > ul {
+    opacity: 0;
+}
+
+.mg-menu > li.hover > ul {
+        opacity: 1;
+    }
+
+.mg-menu > .menu-item > a {
+    padding: 6px;
+    padding-right: 12px;
+    color: #686868;
+}
+
+.mg-menu > .menu-item > a {
+    text-align: right;
+}
+
+.mg-menu .sub-menu {
+    background-color: #303030;
+    color: #fff;
+    z-index: 9999;
+    position: fixed;
+    top: 60px;
+    height: 100%;
+    left: 220px;
+    padding: 0 12px;
+    width: 220px;
+
+    a {
+        padding: 6px;
+    }
+}

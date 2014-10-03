@@ -1,0 +1,28 @@
+/*------------------------------------*\
+  VARS
+\*------------------------------------*/
+/**
+ * Configuration and setup for SASM content Hub
+ */
+
+
+ /*------------------------------------*\
+   Colors
+ \*------------------------------------*/
+ /**
+  * Color configurations
+  */
+
+@import "components/colors/colors";
+
+$greys: (
+    grey1: #ccc
+    );
+
+
+@include sasm-generate-color-classes($prefix: "bg-", $property: "background-color");
+@include sasm-generate-color-classes($prefix: "c-", $property: "color");
+
+$c-red: sasm-color(action-red);
+$c-base-border: sasm-color(neutral-3);
+$c-grey: sasm-color(grey1, $greys);

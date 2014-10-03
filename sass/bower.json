@@ -1,0 +1,20 @@
+{
+  "name": "sacontenthub-css",
+  "version": "0.0.1",
+  "homepage": "TBD",
+  "description": "SASS and CSS components for SA content hub",
+  "authors": [
+    "Daniel Rhees"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-mq": "~2.1.1"
+  }
+}

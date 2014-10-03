@@ -1,0 +1,37 @@
+/**
+ * Get a color from a given color palette.
+ * 
+ * @param {String} $name  - colour to get
+ * @param {Map}    $palette ($sasm-colors) - palette
+ *
+ * @requires {variable} sasm-colors
+ *
+ * @return {Color | Null}
+ *
+ * @group colors
+ */
+
+@function sasm-color($name, $palette: $sasm-colors) {
+    @return map-get($palette, $name);
+}
+
+/**
+ * Generate helper classes for a given colour palette  
+ * Outputs rules such as: `.c-red { color: red; }`.
+ *
+ * @param {Map}    $palette  ($sasm-colors) - palette
+ * @param {String} $prefix   ("c-")          - prefix
+ * @param {String} $property ("color")       - property
+ *
+ * @requires {variable} sasm-colors
+ *
+ * @group colors
+ */
+
+@mixin sasm-generate-color-classes($palette: $sasm-colors, $prefix: "c-", $property: "color") {
+    @each $name, $color in $palette {
+        .#{unquote($prefix + $name)} {
+            #{$property}: $color;
+        }
+    }
+}

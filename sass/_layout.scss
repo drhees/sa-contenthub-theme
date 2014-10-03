@@ -1,0 +1,41 @@
+/*------------------------------------*\
+  Layout
+\*------------------------------------*/
+/**
+ * Main content area layouts.
+ */
+
+.main {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.main-header-part {
+    background-color: #fff;
+    border-bottom: 1px solid $c-base-border;
+    z-index: 9999;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+
+.main-menu-header {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    top: 60px;
+    z-index: 9999;
+    border-right: 1px solid $c-base-border;
+}
+
+.main-content-area {
+    float: left;
+    margin-left: 220px;
+}
+
+.main-container {
+    padding-top: 60px;
+    margin-left: 220px;
+}

@@ -1,0 +1,149 @@
+/*------------------------------------*\
+  Heading
+\*------------------------------------*/
+/**
+ * Top bar layout region and style
+ */
+
+.container {
+    max-width: 1080px;
+}
+
+.header {
+}
+
+.top-nav-background {
+    line-height: 42px;
+}
+
+.latest-title{
+    overflow: hidden;
+}
+
+.latest-title a:hover,
+.top-nav-background .genericon{
+    color: #fff;
+}
+
+.latest-title > span {
+    padding: 0;
+    position: relative;
+    margin-right: 12px;
+    float: left;
+    text-align: center;
+    width: 42px;
+}
+
+.latest-title > span:after{
+    right: -15px;
+    position: absolute;
+    content: '\f501';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'Genericons';
+    vertical-align: middle;
+    top: 13px;
+}
+
+.latest-title .genericon,
+.latest-title span i {
+    font-size: 26px;
+    height: auto;
+    width: 26px;
+}
+
+.right-menu {
+  float: right;
+  position: relative;  
+  margin: 0 0 0 20px;
+  color: #fff;
+  overflow: hidden; 
+}
+
+.right-menu .close,
+.top-nav-background .right-menu a{
+    padding: 0;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    width: 42px;
+    line-height: 42px;
+}
+
+.right-menu .genericon{
+    line-height: 42px;
+}
+
+.right-menu a:hover {
+    color: #fff;
+}
+
+.right-menu a:hover,
+.right-menu a:hover,
+.right-menu a:focus,
+.right-menu .close,
+.right-menu .close:hover,
+.right-menu .close:focus{
+    color: #fff;
+}
+
+
+.social-icons {
+    margin: 0;
+    float: right;
+    text-align: right;
+    padding: 0;
+    line-height: 42px;
+    overflow: hidden;
+}
+
+.social-icons li {
+    padding: 0;
+    line-height: 37px;
+}
+
+.social-icons li a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0;
+    text-align: center;
+    width: 32px;
+     -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.social-icons li a:hover {
+    color: #fff;
+}
+
+.logo {
+    line-height: 60px;
+    margin: 0;
+    position: relative;
+    float: left;
+}
+
+.header-ads img {
+    float: right;   
+}
+
+.lwa-modal-bg{
+    z-index: 9999999 !important;
+}
+
+.lwa-modal{
+    z-index: 99999999 !important;
+}
+
+.fixed .top-nav-background,
+.fixed .main-header-part{
+    display: none !important;
+}
+
+.boxed .fixed {
+    max-width: 100%; 
+    top: 0;
+}
